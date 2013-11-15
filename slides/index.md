@@ -1,10 +1,6 @@
 
-# D3 stack layouts
+# Boulder/Denver D3 And Data Vis
 
-From the terminal, pop in:
+***
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+### November 21, 2013
