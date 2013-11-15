@@ -1,4 +1,4 @@
-## SVG Coordinates
+<section>
 
 <svg></svg>
 
@@ -9,3 +9,4 @@ var svg = d3.select("svg");
 console.log(svg);
 
 </script>
+</section>
