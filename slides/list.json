@@ -1,5 +1,6 @@
 [ "index.md"
 , "intro.md"
+, "topics.md"
 , "workflow.md"
 , "workflow-options.md"
 , "file-urls.md"
@@ -9,6 +10,8 @@
 , "others.md"
 , "the-example.md"
 , "starting-point.md"
+, "the stack.md"
 , "coordinate-system.html"
-
+, "y-axis-fix.md"
+, "inverting-y.md"
 ]

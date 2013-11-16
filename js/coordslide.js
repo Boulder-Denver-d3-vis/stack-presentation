@@ -4,13 +4,14 @@
 /* jshint indent: false */
 /* jshint -W015 */
 /* jshint -W098 */
+
 function drawCoords() {
   'use strict';
   var svg = d3.select('svg');
   svg.selectAll('g').remove();
   var h = svg[0][0].offsetHeight;
   var w = svg[0][0].offsetWidth;
-  var margin = {top: 60, left: 30, right: 30, bottom: 200};
+  var margin = {top: 60, left: 30, right: 30, bottom: 30};
   var height = h - margin.top - margin.bottom;
   var width = w - margin.left - margin.right;
 
@@ -34,7 +35,7 @@ function drawCoords() {
     .duration(3000)
     .attr('d', function (d) { return 'M 0,0 L ' + d + ',0 l -20, -20 M ' + d + ',0 l -20,20'; });
 
-  var yArrow = container.selectAll('.y').data([height]);
+  var yArrow = container.selectAll('.y').data([height * 0.8]);
   yArrow.enter()
     .append('path')
     .attr('class', 'y')
