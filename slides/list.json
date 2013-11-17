@@ -15,7 +15,12 @@
 , "organizing-data-2.md"
 , "applying-stack.md"
 , "stack-result.md"
+, "drawing.md"
+, "drawing-code.md"
+, "drawing-inner.md"
+, "starting-point.md"
 , "coordinate-system.html"
 , "y-axis-fix.md"
 , "inverting-y.md"
+, "fixing-y-attrs.md"
 ]
