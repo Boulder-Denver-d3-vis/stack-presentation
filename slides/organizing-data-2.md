@@ -4,7 +4,7 @@
 
 To provide the data that D3 expects: 
 
-If I have `apples`, `oranges`, and `pear` types, and a value for each type for 5 time periods:
+If I have `apples`, `bananas`, and `grapes` types, and a value for each type for 5 time periods:
 
 ```javascript
 var dataset = [

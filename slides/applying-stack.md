@@ -11,7 +11,7 @@ var stack = d3.layout.stack();
 And then apply it to our data:
 
 ```javascript
-stack(data);
+stack(dataset);
 ```
 
 The stack function we got back from D3 will add baseline values for our stacks.
