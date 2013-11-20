@@ -22,9 +22,9 @@ var rects = groups.selectAll("rect")
   .data(function(d) { return d; })
   .enter()
   .append("rect")
-  .attr("x", function(d, i)   { return xScale(i);            })
-  .attr("y", function(d)      { return yScale(d.y0 + d.y);   })
-  .attr("height", function(d) { return height - yScale(d.y); })
+  .attr("x", function(d, i)   { return xScale(i);                    })
+  .attr("y", function(d)      { return invertedYScale(d.y0 + d.y);   })
+  .attr("height", function(d) { return height - invertedYScale(d.y); })
   .attr("width", xScale.rangeBand());
 ```
 

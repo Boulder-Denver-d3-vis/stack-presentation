@@ -1,4 +1,4 @@
-## Fixing the Y Axis
+## Scaling the Y Axis
 
 ***
 
@@ -7,7 +7,7 @@ The original example uses SVG's default y axis, from the top.
 ``` javascript
 var yScale = d3.scale.linear()
 	.domain([0, max])
-	.range([0, h]);
+	.range([0, height]);
 ```
 
 * The domain is the __input__ to a scale

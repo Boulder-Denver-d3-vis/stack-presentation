@@ -5,7 +5,7 @@
 Instead, let's change the __output__ of the y scale to start at the `height` and go to 0:
 
 ```javascript
-var yScale = d3.scale.linear()
+var invertedYScale = d3.scale.linear()
     .domain([0,max])
     .range([height, 0]);
 ```
