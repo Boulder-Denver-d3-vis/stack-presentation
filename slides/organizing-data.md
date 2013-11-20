@@ -4,8 +4,8 @@
 
 D3's stack layout expects an array of arrays.
 
-An item in the outer layer is a 'series', each color in a stack.
+The points for each color go into an array together.
 
-An item in the inner layer is a value.
+All of these arrays (housed in an array) make our dataset.
 
 This confused me initially when applying it to stacked bars.
