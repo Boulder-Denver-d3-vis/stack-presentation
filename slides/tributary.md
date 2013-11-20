@@ -9,10 +9,13 @@ Live D3 coding environment
 ### Advantages:
 
 * instantaneous feedback
+* Saves as Gist
+* Linked data
+* Helpers for animation
 
 ***
 
 ### Disadvantages:
 
-* Need to port to a real site
-* Transition timing issues (Mohr example?)
+* Need to port to use in other apps/sites
+* In-browser editor

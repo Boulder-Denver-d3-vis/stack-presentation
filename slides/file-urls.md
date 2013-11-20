@@ -2,7 +2,7 @@
 
 ***
 
-The simplest possible approach, just link everything as file:///home/user/project/file.js
+The simplest possible approach, just link everything as file URLs, e.g. file:///home/user/project/file.js
 
 ### Advantages:
 

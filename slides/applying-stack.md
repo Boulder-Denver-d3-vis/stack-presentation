@@ -14,4 +14,4 @@ And then apply it to our data:
 stack(dataset);
 ```
 
-The stack function we got back from D3 will add baseline values for our stacks.
+The stack function we got back from D3 will add baseline values for our stacks, using D3's defaults.
