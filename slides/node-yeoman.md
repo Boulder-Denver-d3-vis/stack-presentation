@@ -12,11 +12,11 @@ Use the `yeoman` node module to generate a static site.
 
  ***
 
-Advantages:
+### Advantages:
 
- * Lots of generators, livereload, pretty fast
+ * Lots of generators, livereload, tests, pretty fast
 
-Disadvantages:
+### Disadvantages:
 
  * Lots of prerequisites, disk space, complexity
 

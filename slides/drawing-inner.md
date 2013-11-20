@@ -3,8 +3,8 @@
 ***
 
 ```javascript
-var rects = groups.selectAll("rect")
-  .data(function(d) { return d; })
+var rects = groups.selectAll("rect") // Creating a new sub-selection inside groups
+  .data(function(d) { return d; })   // Our data is the value of the data bound to each group.
   .enter()
   .append("rect")
   .attr("x",      function(d, i) { return xScale(i);   })

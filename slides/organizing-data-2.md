@@ -11,10 +11,10 @@ var dataset = [
   [ // apples
     { y: 5 }, { y: 4 }, { y: 2 }, { y: 7 }, { y: 23 }
   ],
-  [ // oranges
+  [ // bananas
     { y: 10 }, { y: 12 }, { y: 19 }, { y: 23 }, { y: 17 }
   ],
-  [ // pears
+  [ // grapes
     { y: 22 }, { y: 28 }, { y: 32 }, { y: 35 }, { y: 43 }
   ]
 ];

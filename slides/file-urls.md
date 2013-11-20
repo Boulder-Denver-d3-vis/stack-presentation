@@ -4,11 +4,11 @@
 
 The simplest possible approach, just link everything as file:///home/user/project/file.js
 
-#### Advantages:
+### Advantages:
 
  * Easy as can be
 
-####  Disadvantages:
+###  Disadvantages:
 
  * Will break on external resources
-
+ * No LiveReload, minification, test runners

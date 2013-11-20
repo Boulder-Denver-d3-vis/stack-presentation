@@ -12,11 +12,15 @@ If you have Python and a shell, this gets you a web server:
 python -m SimpleHTTPServer
 ``` 
 
-Advantages:
+***
+
+### Advantages:
 
  * Load resources the same way as a production server, GitHub Pages, etc.
 
-Disadvantages:
+***
 
- * No livereload 
+### Disadvantages:
+
+ * No livereload, minification, test runners
 

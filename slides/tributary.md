@@ -4,11 +4,15 @@
 
 Live D3 coding environment
 
-Advantages:
+***
+
+### Advantages:
 
 * instantaneous feedback
 
-Disadvantages:
+***
+
+### Disadvantages:
 
 * Need to port to a real site
 * Transition timing issues (Mohr example?)
