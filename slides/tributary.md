@@ -13,8 +13,6 @@ Live D3 coding environment
 * Linked data
 * Helpers for animation
 
-***
-
 ### Disadvantages:
 
 * Need to port to use in other apps/sites
